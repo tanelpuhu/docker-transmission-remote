@@ -1,6 +1,6 @@
 ### transmission-remote
 
-[![Docker Build Status](https://img.shields.io/docker/build/tanel/transmission-remote.svg?style=flat-square)]()
+[![Docker Build Status](https://img.shields.io/docker/build/tanel/transmission-remote.svg?style=flat-square)](https://hub.docker.com/r/tanel/transmission-remote/)
 
 Example usage:
 
