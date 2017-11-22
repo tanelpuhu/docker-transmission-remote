@@ -13,7 +13,7 @@ Into .bashrc or whatever:
 	             --name transmission-remote \
 	             -v ${HOME}/.netrc:/home/user/.netrc:ro \
 	             tanel/transmission-remote \
-	             https://seedbox.tld/transmission/rpc/ \
+	             https://seedbox.tld/transmission \
 	             --netrc /home/user/.netrc \
 	             $@
 	}
