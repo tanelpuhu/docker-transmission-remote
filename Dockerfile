@@ -1,8 +1,8 @@
 FROM alpine:latest
 
-RUN apk add --no-cache transmission-cli
-
 ENV TR_FINGERPRINT 45f9c0ecd579d06fabe0d224aa329af2a2754001
+
+RUN apk add --no-cache transmission-cli
 
 ENV HOME /home/user
 
