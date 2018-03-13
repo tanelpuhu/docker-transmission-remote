@@ -1,6 +1,6 @@
-FROM alpine:latest
+FROM alpine:edge
 
-ENV TR_FINGERPRINT 45f9c0ecd579d06fabe0d224aa329af2a2754001
+ENV TRANSMISSION_CLI_VERSION="2.93 (3c5870d4f5)"
 
 RUN apk add --no-cache transmission-cli
 
