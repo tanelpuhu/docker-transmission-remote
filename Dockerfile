@@ -1,6 +1,6 @@
 FROM alpine:edge
 
-ENV TRANSMISSION_CLI_VERSION="2.93 (3c5870d4f5)"
+ENV TRANSMISSION_CLI_VERSION="2.94 (d8e60ee44f)"
 
 RUN apk add --no-cache transmission-cli
 
