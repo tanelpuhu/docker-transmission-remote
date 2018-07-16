@@ -3,7 +3,7 @@ set -ex
 
 EXPECTED="transmission-remote 2.94 (d8e60ee44f)"
 
-docker build -t transmission-remote .
+docker build --pull -t transmission-remote .
 
 OUTPUT=$(docker run transmission-remote -V 2>&1)
 
