@@ -5,7 +5,7 @@ EXPECTED="transmission-remote 2.94 (d8e60ee44f)"
 
 docker build --pull -t transmission-remote .
 
-OUTPUT=$(docker run transmission-remote -V 2>&1)
+OUTPUT=$(docker run --rm transmission-remote -V 2>&1)
 
 if [[ "$OUTPUT" == "$EXPECTED" ]]; then
   echo "All good, output was as expected"
