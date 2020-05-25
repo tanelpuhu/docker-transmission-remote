@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -ex
 
-EXPECTED="transmission-remote 2.94 (d8e60ee44f)"
+EXPECTED="transmission-remote 3.00 (bb6b5a062e)"
 
 docker build --pull -t transmission-remote .
 
